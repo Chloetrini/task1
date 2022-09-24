@@ -1,0 +1,319 @@
+body{
+    color: rgb(116, 116, 116);
+    width: 100%;
+}
+.mob{
+    width: 80%;
+    margin: 0 auto;
+}
+.not{
+    height: 50px;
+    width: 50px;
+}
+.nut{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+ul{
+    list-style-type: none;
+    margin: 0 50px 0 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    display: block;
+    float: right;
+    padding: 8px;
+}
+.nut> div >h1{
+    display: inline-block;
+}
+/* #mu{
+    display: flex;
+    justify-content: space-between;
+} */
+h1>span{
+    color: rgb(0, 179, 155);
+}
+a{
+    color: rgb(0, 179, 155);
+    text-decoration: none;
+}
+.bye{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60px;
+    height: 60px;
+}
+.go{
+    text-align: center;
+    color: rgb(0, 179, 155);
+    font-weight:normal ;
+}
+.went{
+    display: table;
+    width: 100%;
+}
+p{
+    display: table-cell;
+    padding: 20px;
+    font-size: 20px;
+}
+.patient{
+    color: white;
+    background-color: rgb(0, 179, 155);
+}
+.patient img{
+    height: 15px;
+    width: 15px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: none;
+}
+.doctor{
+    color: white;
+    background-color: rgb(61, 131, 223);
+}
+.doctor img{
+    height: 15px;
+    width: 15px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: none;
+}
+.clinic{
+    color: white;
+    background-color: rgb(27,39, 52);
+}
+.clinic img{
+    height: 15px;
+    width: 15px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: none;
+}
+.patient h1{
+    margin-left: 20px;
+}
+.doctor h1{
+    margin-left: 20px;
+}
+.clinic h1{
+    margin-left: 20px;
+}
+.clinic select{
+    border: none;
+    background-color: rgb(27,39, 52);
+    text-decoration: underline;
+    margin-left: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+.doctor select{
+    border: none;
+    background-color: rgb(61, 131, 223);
+    text-decoration: underline;
+    margin-left: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+.patient select{
+    border: none;
+    background-color: rgb(0, 179, 155);
+    text-decoration: underline;
+    margin-left: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+.paint{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 50px;
+    padding: 10px;
+
+}
+.you{
+    color: rgb(0, 179, 155);
+    font-size: 20px;
+    flex-basis: 50%;
+}
+.do{
+    background-image: url('logoo.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 200px;
+    flex-basis: 50%;
+}    
+.we{
+    margin-top: 30px;
+    font-size: 60x;
+    font-weight: normal;
+    color: rgb(0, 179, 155);
+}
+.visit{
+    background:white;
+    color: rgb(116, 116, 116);
+    border: 2px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 150px;
+    height: 200px;
+}
+.flag{
+    background:white;
+    color: rgb(116, 116, 116);
+    border: 2px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 150px;
+    height: 200px;
+}
+.build{
+    background:white;
+    color: rgb(116, 116, 116);
+    border: 2px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 150px;
+    height: 200px;
+}
+.eye{
+    background:white;
+    color: rgb(116, 116, 116);
+    border: 2px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 150px;
+    height: 200px;
+}
+.leg h1{
+    color: white;
+}
+.leg h2{
+    font-size: 15px;
+    font-weight: normal;
+}
+.leg img{
+    margin-top: 10px;
+}
+.go{
+    display: flex;
+    flex-direction: column;
+}
+.so{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.leg{
+    font-size: 10px;
+    display: flex;
+    flex-basis: 50%;
+    margin-top: 30px;
+}
+.fly{
+    display: flex;
+    width: 100%;
+    background-color: rgb(199, 255, 247);
+    align-content: center;
+}
+.we h1{
+    margin-left: 30px;
+}
+.away{
+    display: flex;
+    width: 100%;
+}
+.us{
+    flex-basis: 50%;
+    margin-top: 30px;
+}
+.ring{
+    text-align: center;
+}
+.ring h1{
+    color: rgb(0, 179, 155); 
+    font-weight: normal;    
+}
+.ring h2{
+    font-size: 15px;
+    font-weight:normal;
+}
+.bed{
+    display: flex;
+    align-items: center;
+}
+.bed img{
+    width: 300px;
+    height: 255px;
+    margin-left: 25px;
+}
+.toe{
+    display: flex;
+    align-items: center;
+}
+.toe img{
+    width: 300px;
+    height: 255px;
+    margin-left: 25px;
+}
+.air{
+    display: flex;
+    align-items: center;
+}
+.air img{
+    width: 300px;
+    height: 255px;
+    margin-left: 25px;
+}
+.pot{
+    float:right;
+    background-color: rgb(61, 131, 223);
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 4px;
+}
+.me{
+    font-size: 25x;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.jop{
+    background-color: rgb(61, 131, 223);
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 4px;
+
+}
+.sing{
+    margin: 0 auto;
+    font: size 15px;
+    text-align: center;
+}
+.sing h1{
+    color: black;
+    font-weight: normal;
+}
+.eat{
+    border-top: 1px solid rgb(238, 242, 242);
+}
+.eat h6{
+    font-size: 15px;
+    text-align: center;
+}
+.eat a{
+    color: rgb(61, 131, 223);
+}
+.key{
+    border: none;
+    color: rgb(0, 179, 155);
+}
